@@ -1,0 +1,13 @@
+{
+    "app_name": "",
+    "app_id": "",
+    "main_screen": [
+        {
+            "id": "0",
+            "parent_id": null,
+            "name": "",
+            "isActive": ""
+        }
+    ],
+    "sub_screen": {}
+}

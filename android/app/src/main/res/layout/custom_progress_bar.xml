@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg_custom_progress"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:background="@drawable/bg_progress_bar_good"
+    >
+
+    <RelativeLayout
+        android:id="@+id/spacing"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_progress_description_good"
+        >
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/progress_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100점"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:id="@+id/progress_bar_ic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_good"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

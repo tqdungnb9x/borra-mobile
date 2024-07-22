@@ -1,0 +1,426 @@
+{
+  "app_name": "보라",
+  "splash_logo_desc": "최고의 하루를 원한다면, 보라",
+  "common": {
+    "format_time": "HH시 mm분",
+    "no_content": "콘텐츠가 없습니다."
+  },
+  "component": {
+    "gender": "성별",
+    "gender_male": "남자",
+    "gender_female": "여자",
+    "marital": "결혼 여부",
+    "single": "미혼(솔로)",
+    "couple": "미혼(커플)",
+    "married": "기혼",
+    "select_date": "생년월일",
+    "hint_type": "선택",
+    "solar": "양력",
+    "lunar": "음력",
+    "leap": "윤달",
+    "select_time": "태어난 시간",
+    "dont_know": "모름",
+    "hour": "시",
+    "min": "분"
+  },
+  "app_dialog": {
+    "error": {
+      "title": "Error"
+    },
+    "info": {
+      "title": "Info"
+    },
+    "success": {
+      "title": "Success"
+    },
+    "cancel": {
+      "title": "취소"
+    },
+    "confirm": {
+      "title": "확인"
+    },
+    "login_required": "로그인이 필요합니다.",
+    "logout_question": "보라에서 로그아웃하시겠습니까?",
+    "select_3_tag": "관심태그는 최대 3개까지 선택 가능합니다.",
+    "user_edit_inform": "회원정보가 수정되었습니다.",
+    "user_edit_without_save": "변경사항을 저장하지 않고 이동하시겠습니까?"
+  },
+  "validate": {
+    "empty": "내용을 올바르게 입력해 주세요.",
+    "format_email": "이메일 형식이 아닙니다.",
+    "format_password": "비밀번호가 조건에 맞지 않습니다.",
+    "compare_password": "비밀번호가 일치하지 않습니다.",
+    "current_password": "현재 비밀번호가 아닙니다.",
+    "format_business_number": "사업자등록번호를 전부 입력해 주세요."
+  },
+  "button": {
+    "sign_in": "로그인",
+    "sign_up": "회원가입",
+    "sent": "전송하기",
+    "next": "다음",
+    "confirm": "확인",
+    "done": "완료",
+    "create": "추가",
+    "delete": "삭제",
+    "save": "저장하기",
+    "required": "필수",
+    "optional": "선택",
+    "view_more": "더보기",
+    "yes": "예",
+    "no": "아니요",
+    "details": "자세히",
+    "check": "확인",
+    "share": "공유하기",
+    "next_card": "다음 카드",
+    "previous_card": "이전 카드",
+    "kakao": "간편 가입하고 결과 보기",
+    "close": "닫기"
+  },
+  "dashboard": {
+    "home": "홈",
+    "fortune": "사주",
+    "tarot": "타로",
+    "premium": "프리미엄",
+    "categories": "카테고리",
+    "favourite": "좋아요",
+    "my_account": "마이페이지"
+  },
+  "home": {
+    "hot_content_section_header": "지금 가장 핫한",
+    "view_only": "보라 ONLY",
+    "user_word": {
+      "of": "님의",
+      "fortune": "오늘 운세는?"
+    },
+    "today_horoscope_section_header": "오늘의 운세 모아보기",
+    "wait_free_section_header": "눈 깜짝할 사이에, 기다리면 무료!",
+    "tag_section_header": "지금 내 관심은...",
+    "tag_title": {
+      "title": "인기 콘텐츠",
+      "tag_1": "결혼하면 행복하다던데..⭐",
+      "tag_2": "꽁냥꽁냥, 지금은 연애 중!",
+      "tag_3": "이력서만 n번째, 진짜_최종.doc",
+      "tag_4": "세상에서 제일 쉬운게 공부라는데",
+      "tag_5": "유리지갑 지켜! 부자 되고싶다면?",
+      "tag_6": "잃기 전에 챙기자, 소중한 건강!",
+      "tag_7": "출근도 안했는데 퇴근하고 싶다",
+      "tag_8": "나는 좋은 부모일까요?",
+      "tag_9": "연애보다 어려운 사회 생활",
+      "tag_10": "우린 평생 갈 찐친일까?",
+      "tag_11": "우리 멍냥이들은 무슨 생각일까?"
+    },
+    "always_free_section_header": "여기서만 무료",
+    "first_free_section_header": "아직 본 적 없다면, 최초 무료 보기",
+    "categories": {
+      "content_title": "카테고리 콘텐츠",
+      "cat_8_title": "기다리면 무료 콘텐츠 모아보기",
+      "cat_9_title": "최초 무료 콘텐츠 모아보기",
+      "category_list_title": "카테고리 콘텐츠",
+      "collect_content": "콘텐츠 모아보기"
+    },
+    "free_content": {
+      "title": "무료 콘텐츠",
+      "header": "여기서만 무료"
+    },
+    "hot_content": {
+      "title": "인기 콘텐츠",
+      "header": "지금 가장 핫한",
+      "list_screen_title": "카테고리",
+      "view_content_by_cat": "프리미엄 콘텐츠"
+    },
+    "search": {
+      "search_hint": "검색어를 입력해주세요",
+      "suggested_header": "추천 검색",
+      "recommend_header": "추천 콘텐츠",
+      "search_empty": "검색 결과가 없어요!\n다른 걸로 검색해볼까요?",
+      "recommend_keyword": "금전",
+      "suggestion": "추천"
+    },
+    "side_menu": {
+      "login": "로그인하기",
+      "login_desc": "로그인하여 나의 운세 알아보기",
+      "my_coin": "나의 코인",
+      "announcement": "공지사항",
+      "contact_kakao": "카카오톡 문의하기",
+      "review": "리뷰 쓰러가기",
+      "logout": "로그아웃"
+    },
+    "user": {
+      "welcome": "님,\n환영합니다"
+    },
+    "company_info": {
+      "privacy_policy": "개인정보처리방침",
+      "term": "이용약관",
+      "company_name": "㈜에프엘이에스",
+      "address": "주소",
+      "company_add": "서울특별시 서초구 서초대로 398, 627호",
+      "representative": "대표",
+      "ceo_name": "김우현",
+      "registration_number": "사업자등록번호",
+      "number": "174-81-01556",
+      "sale_tel": "통신판매업 신고번호",
+      "tel_number": "2020-서울금천-0132",
+      "customer_service": "고객센터"
+    },
+    "common": {
+      "view_all": "모두 보기",
+      "notice_title": "공지사항",
+      "faq_title": "자주 묻는 질문",
+      "": ""
+    }
+  },
+  "favourite": {
+    "title": "마이페이지",
+    "header": "좋아요"
+  },
+  "my_account": {
+    "like_header": "좋아요",
+    "replay_header": "콘텐츠 다시보기",
+    "no_like": "좋아요를 누른 콘텐츠가 없습니다.",
+    "no_replay": "좋아요를 누른 콘텐츠가 없습니다.",
+    "edit_user": {
+      "title": "마이페이지",
+      "edit_info": "내 정보 수정",
+      "name": "이름",
+      "name_hint": "이름을 입력해주세요",
+      "receive_setting": "수신 설정",
+      "withdraw": "회원 탈퇴",
+      "noti_setting_title": "",
+      "noti_setting_content": "",
+      "action_string": "탈퇴",
+      "withdraw_setting_title": "탈퇴하시겠습니까?",
+      "withdraw_setting_content": "탈퇴사유를 입력해주세요",
+      "save_change": "변경사항 저장",
+      "save_change_question": "변경사항을 저장하시겠습니까?",
+      "enter_info": "정보를 입력해주세요"
+    },
+    "setting_noti": {
+      "receive_fortune": "운세 정보(광고성) 수신 ",
+      "question": "보라의 맞춤형 추천 및\n 이벤트 알림을 거부하시겠습니까?",
+      "guide_1": "푸시 알림 수신을 위해 고객님의 기기에서 알림을 허용해주세요.",
+      "guide_2": "위 항목을 모두 동의하셔야 보라의 맞춤형 추천 및 이벤트 알림을 받으실 수 있습니다."
+    },
+    "withdraw_user": {
+      "title": "회원탈퇴",
+      "header": "탈퇴사유를 작성해 주세요",
+      "reason_hint": "보라 앱으로 인해 불쾌함을 느낀 이유/ 탈퇴사유를 알려주세요.",
+      "guide_2": "위 항목을 모두 동의하셔야 보라의 맞춤형 추천 및 이벤트 알림을 받으실 수 있습니다."
+    },
+    "register_user": {
+      "title": "내 정보",
+      "header": "내 정보 수정",
+      "agree_all_term": "약관 전체 동의하기",
+      "allow_collect_info": "[필수] 개인정보 수집·이용 동의",
+      "consent_info": "[선택] 개인정보 제3자 제공 동의",
+      "allow_noti": "[선택] 마케팅 활용 및 광고성 정보 수신 동의",
+      "guild_content": "보라 이용을 위해 정보 입력이 필요합니다",
+      "popup_title": "회원가입",
+      "popup_content": "회원정보를 저장하시겠습니까?",
+      "action_string": "저장"
+    }
+  },
+  "content_detail": {
+    "tarot_choose_card": "편안한 마음으로 집중하여 카드를 선택해주세요.",
+    "saju_header": "이런 내용이 있어요 !",
+    "saju_input_user": "나의 사주 입력하기",
+    "saju_input_partner": "상대방 사주 입력하기",
+    "saju_input_reset": "다른 사주 입력하기",
+    "saju_reset_dialog_title": "다른 사주 입력",
+    "saju_reset_dialog_content": "입력하신 정보가 사라집니다.\n정말로 다른 사주를 입력하시겠습니까?",
+    "saju_reset_action": "다른 사주 입력",
+    "saju_review_header": "이런 내용이 있어요 !",
+    "juyeog_protagonist": "주역이란",
+    "juyeog_detail": "팔괘를 외괘, 내괘의 조합으로 만들어 64괘의 상징과 그에 맞는 점괘를 풀이해드리는 것입니다. 천지만물은 모두 양과 음으로 이루어져 있다는 원칙에 기반해 인간의 삶에 적용하여 풀이합니다. 태극이 음, 양으로, 음, 양은 8괘(건, 태, 이, 진, 손, 감, 간, 곤)로, 이들의 조합으로 64괘가 되어 괘사를 붙이게 됩니다.",
+    "waiting_error_payment": "코인이 부족합니다.\n이 콘텐츠를 보기 위해서는 코인 충전이 필요합니다.",
+    "waiting_title": "님의 사주 분석하는 중...",
+    "waiting_to_result": "결과 확인하기",
+    "result_share_desc": "결과는 어떠셨나요? 친구들과 공유해보세요",
+    "result_share_dialog_content": "친구에게 공유하기",
+    "result_share_message": "클립보드에 링크가 복사되었어요.",
+    "result_share_suggest": "방금 보신 <{}> 콘텐츠는 어떠셨나요?",
+    "result_share_please": "{}님의 후기를 나누어주세요!",
+    "result_feedback_title": "이런건 어떠세요?",
+    "result_recommend_title": "다른 콘텐츠 더보기",
+    "view_saju_analysis": "사주분석 보기",
+    "replay_expired_message": "다시보기 기간이 만료되었습니다.",
+    "saju_button_text": "결과 확인하기",
+    "analyzing_fortune": "님의 사주 분석하는 중...",
+    "analysis_completed": "사주 분석이 완료되었습니다.",
+    "check_result_button": "결과 확인하기",
+    "like_content_message": "이제  \"좋아요\" 탭에서 바로 확인할 수 있어요."
+  },
+  "content_result": {
+    "saju_detail_title": "님의 사주 분석",
+    "table_column_date": "일주",
+    "table_column_hour": "시주",
+    "table_column_month": "월주",
+    "table_column_year": "년주",
+    "table_row_gan": "천간",
+    "table_row_ji": "지지",
+    "daeun_desc": "사주팔자는 사주의 간지(干支)가 되는 여덟 글자를 말하며, 이를 통해 인생의 전반적인 길흉화복을 점치게 됩니다. 위의 표에 있는 8자의 한자를 사주팔자라고 하며, 고객님의 사주 속에 숨겨진 인생 암호를 쉽게 풀이할 수 있도록 만세력을 기반으로 결과값을 뽑아낸 것입니다.",
+    "description_1": "인생을 살다보면 운세의 기운이 바뀌는 시기가 올 때가 있습니다. 흔히 터닝포인트라고 하기도 하며 인생에서 장기간 큰 영향을 미치는 운으로 10년을 주기로 변화합니다.",
+    "description_2": "위의 표는 고객님 사주명식을 분석하여 대운의 흐름을 파악한 것으로 숫자는 그 해의 나이이며, 한자는 10년마다 바뀌는 대운의 간지를 의미합니다.",
+    "get_coin_free": "광고 보고 무료 코인 받기"
+  },
+  "tracking": {
+    "title": "보라에서 미리 알려드려요",
+    "header": "지금 활동 정보 이용을 허용하시면,이런 내용을 보여드릴 수 있어요.",
+    "dont_miss_out": "멋진 하루를 놓치지 않게!",
+    "beginning_today_horoscope": "하루의 시작에 맞춰, 오늘의 운세를 보내드려요.",
+    "more_fun": "더 많은 즐거움을 제공해 드리기 위해, ",
+    "allow_tracking": "활동 정보 추적을 허용",
+    "please": "해 주세요!",
+    "allow_access": "활동 정보 이용 허용하고 더 재밌게 보기",
+    "consent_desc_mobile": "활동 정보 이용 동의는 언제든 기기 설정 > 개인정보 보호 및 보안 > 추적서 변경할 수 있습니다. 활동 정보 이용에 동의하지 않으셔도, 보라의 재밌는 콘텐츠를 즐기실 수 있습니다.",
+    "consent_desc_table": "활동 정보 이용 동의는 언제든 기기 설정 > 개인정보 보호 및 보안 > 추적서 변경할 수 있습니다.\n활동 정보 이용에 동의하지 않으셔도, 보라의 재밌는 콘텐츠를 즐기실 수 있습니다.",
+    "page_2_allow_tablet": "지금 활동 정보 이용을 허용하시면, 이런 내용을 보여드릴 수 있어요.",
+    "page_2_allow_mobile": "지금 활동 정보 이용을 허용하시면,\n이런 내용을 보여드릴 수 있어요.",
+    "short_title": "보라에서",
+    "what_next": "다음 내용 보기"
+  },
+  "payment_list": {
+    "title": "보라에서 미리 알려드려요",
+    "payment_title": "코인 충전",
+    "recharge_history": "충전 내역",
+    "usage_history": "사용 내역",
+    "current_balance": "현재 보라 코인 잔액은 ",
+    "current_balance_tail": " 입니다",
+    "header": "지금 활동 정보 이용을 허용하시면,이런 내용을 보여드릴 수 있어요.",
+    "date": "날짜",
+    "classification": "분류",
+    "charge": "충전",
+    "payment": "결제",
+    "empty": "조회 내역이 없습니다.",
+    "consent_desc": "[필수] 개인정보 수집·이용 동의",
+    "charging": "충전하기",
+    "item": "항목",
+    "use": "사용",
+    "free_coin": "무료코인",
+    "free_coin_per_day": "회"
+  },
+  "asset_picker": {
+    "cancel": "취소",
+    "confirm": "확인",
+    "edit": "번경",
+    "emptyList": "이미지가 없습니다.",
+    "goToSystemSettings": "시스템 설정으로 이동합니다.",
+    "loadFailed": "업로드가 실패했습니다.",
+    "preview": "미리보기",
+    "select": "선택",
+    "unableToAccessAll": "파일에 접근할 수 없습니다.",
+    "viewingLimitedAssetsTip": "접근할 수 있는 파일 및 앨범만 볼 수 있습니다."
+  },
+  "my_page": {
+    "my_account": "내 정보 관리",
+    "cash_charging": "캐시 충전",
+    "inquiry_history": "문의 내역",
+    "payment_history": "결제 내역",
+    "review_history": "리뷰 내역",
+    "announcement": "공지사항",
+    "faq": "자주 묻는 질문",
+    "term": "이용약관",
+    "logout": "로그아웃"
+  },
+  "report": {
+    "greeting": "신고사유를 작성해 주세요",
+    "title": "신고하기",
+    "hint": "상대방으로 인해 불쾌함을 느낀 과정을 자세하게 설명 해주세요."
+  },
+  "sign_in": {
+    "title": "똑똑한 정리의 시작",
+    "input": {
+      "email": {
+        "title": "이메일",
+        "hint": "이메일을 입력해 주세요."
+      },
+      "password": {
+        "title": "비밀번호",
+        "hint": "비밀번호를 입력해 주세요."
+      }
+    },
+    "forgot_password": "비밀번호 찾기",
+    "button_kakao": "카카오 로그인",
+    "button_apple": "Apple로 로그인"
+  },
+
+  "send_email": {
+    "title": "비밀번호 찾기",
+    "greeting": "비밀번호 찾기",
+    "subTitle": "가입 당시 입력한 이메일 주소를 통해\n새로운 비밀번호를 받을 수 있습니다. ",
+    "input": {
+      "email": {
+        "title": "이메일",
+        "hint": "이메일을 입력해주세요."
+      },
+      "name": {
+        "title": "이름",
+        "hint": "이름을 입력해주세요."
+      }
+    }
+  },
+  "reset_password": {
+    "title": "비밀번호 재설정",
+    "greeting": "비밀번호를 재설정 해주세요",
+    "input": {
+      "newPassword": {
+        "title": "비밀번호",
+        "subTitle": "조합 : 영문 대문자/영문 소문자/숫자/특수문자 중 2가지 이상\n글자수: 8자~16자",
+        "hint": "비밀번호를 입력해 주세요."
+      },
+      "rePassword": {
+        "title": "비밀번호 확인",
+        "hint": "비밀번호를 한 번 더 입력해 주세요."
+      }
+    }
+  },
+  "sign_up": {
+    "title": "회원가입",
+    "greeting": "기본정보",
+    "name": {
+      "title": "이름",
+      "hint": "이름을 입력해주세요."
+    },
+    "gender": {
+      "title": "성별"
+    },
+    "email": {
+      "title": "E-mail",
+      "hint": "이메일을 입력해주세요."
+    },
+    "password": {
+      "title": "비밀번호",
+      "hint": "최소 8자, 영문숫자 조합만 가능"
+    },
+    "confirm_password": {
+      "title": "비밀번호 재입력",
+      "hint": "최소 8자, 영문숫자 조합만 가능"
+    },
+    "term": {
+      "title": "이용약관",
+      "all_terms": "모두 확인 및 동의합니다."
+    },
+    "complete": "환영합니다.\n회원가입이 완료되었습니다."
+  },
+  "term_data": {
+    "TERM_OF_SERVICE": {
+      "title": "서비스 이용약관",
+      "memo": "못하다 두기 간에 피다. 인간은 공자는 그들의 이것이다. 열락의 얼마나 그들의 천자만홍이 반짝이는 날카로우나 귀는 부패뿐이다. 불어 긴지라 살았으며, 끓는",
+      "desc": ""
+    },
+    "TERM_OF_PRIVATE_OF_POLICY": {
+      "title": "개인정보 취급방침",
+      "memo": "못하다 두기 간에 피다. 인간은 공자는 그들의 이것이다. 열락의 얼마나 그들의 천자만홍이 반짝이는 날카로우나 귀는 부패뿐이다. 불어 긴지라 살았으며, 끓는",
+      "desc": ""
+    },
+    "TERM_OF_MARKETING_SMS": {
+      "title": "마케팅/ 광고 문자 수신",
+      "memo": "못하다 두기 간에 피다. 인간은 공자는 그들의 이것이다. 열락의 얼마나 그들의 천자만홍이 반짝이는 날카로우나 귀는 부패뿐이다. 불어 긴지라 살았으며, 끓는",
+      "desc": ""
+    },
+    "TERM_OF_MARKETING_EMAIL": {
+      "title": "마케팅/ 광고 이메일 수신",
+      "memo": "못하다 두기 간에 피다. 인간은 공자는 그들의 이것이다. 열락의 얼마나 그들의 천자만홍이 반짝이는 날카로우나 귀는 부패뿐이다. 불어 긴지라 살았으며, 끓는",
+      "desc": ""
+    }
+  }
+}

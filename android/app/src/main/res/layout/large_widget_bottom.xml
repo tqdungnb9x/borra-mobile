@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@drawable/bg_layout"
+    >
+
+    <RelativeLayout
+        android:id="@+id/switch_3"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/switch_4"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_keyboard_double_arrow_up_16"
+            android:background="@android:color/transparent"
+            android:layout_gravity="right"
+            />
+    </RelativeLayout>
+    <!-- love luck-->
+    <LinearLayout
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ImageView
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_love_luck_24"
+            android:background="@drawable/bg_love_luck"
+            />
+
+        <TextView
+            android:id="@+id/love_name"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="애정운"
+            />
+        <ProgressBar
+            android:id="@+id/love_progress_bar"
+            android:paddingRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:progressBackgroundTint="@color/mistyrose"
+            android:progressTint="@color/salmon"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="0"
+            android:progressDrawable="@drawable/custom_progress_bg"
+            />
+
+        <TextView
+            android:id="@+id/love_text"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:text="점"
+            />
+    </LinearLayout>
+
+    <!-- money-->
+    <LinearLayout
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ImageView
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_money"
+            android:background="@drawable/bg_money"
+            />
+
+        <TextView
+            android:id="@+id/money_name"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="애정운"
+            />
+        <ProgressBar
+            android:id="@+id/money_progress_bar"
+            android:paddingRight="10dp"
+            android:layout_weight="6"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="0"
+            android:progressBackgroundTint="@color/antiquewhite"
+            android:progressTint="@color/pastelorange"
+            android:progressDrawable="@drawable/custom_progress_bg"
+            />
+
+        <TextView
+            android:id="@+id/money_text"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:text="점"
+            />
+    </LinearLayout>
+
+    <!-- health-->
+    <LinearLayout
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ImageView
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_riches"
+            android:background="@drawable/bg_riches"
+            />
+
+        <TextView
+            android:id="@+id/health_name"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="애정운"
+            />
+        <ProgressBar
+            android:id="@+id/health_progress_bar"
+            android:paddingRight="10dp"
+            android:layout_weight="6"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="0"
+            android:progressBackgroundTint="@color/aeroblue"
+            android:progressTint="@color/maximumbluegreen"
+            android:progressDrawable="@drawable/custom_progress_bg"
+            />
+
+        <TextView
+            android:id="@+id/health_text"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:text="점"
+            />
+    </LinearLayout>
+
+</LinearLayout>

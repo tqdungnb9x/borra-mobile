@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "887454029577",
+    "firebase_url": "https://hellounse-93333.firebaseio.com",
+    "project_id": "hellounse-93333",
+    "storage_bucket": "hellounse-93333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887454029577:android:411256481222ab6e77e5d8",
+        "android_client_info": {
+          "package_name": "com.example.app_base_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887454029577-mdk6tbrchh433o0keib1cjee39d8sk2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzqxL3DpNusyvv1mePE-4Uzf31n77O2_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887454029577-mdk6tbrchh433o0keib1cjee39d8sk2v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "887454029577-dppg278ac7ffqmas2j4ds1lu57o1p58s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.firstmecca.hellounsemobile",
+                "app_store_id": "1052093404"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887454029577:android:134586e19eca9b5b77e5d8",
+        "android_client_info": {
+          "package_name": "com.firstmecca.hellounsemobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887454029577-mdk6tbrchh433o0keib1cjee39d8sk2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzqxL3DpNusyvv1mePE-4Uzf31n77O2_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887454029577-mdk6tbrchh433o0keib1cjee39d8sk2v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "887454029577-dppg278ac7ffqmas2j4ds1lu57o1p58s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.firstmecca.hellounsemobile",
+                "app_store_id": "1052093404"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

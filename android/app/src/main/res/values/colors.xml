@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="maximumbluegreen">#30C9AD</color>
+    <color name="pastelorange">#FFBA52</color>
+    <color name="salmon">#FF8074</color>
+    <color name="mistyrose">#E4FCFF</color>
+    <color name="antiquewhite">#F9EBD6</color>
+    <color name="aeroblue">#C7EDE7</color>
+    <color name="lavender">#E3E8FF</color>
+    <color name="azureishwhite">#D7EFEB</color>
+    <color name="crayola">#AEB1BB</color>
+    <color name="blue">#287CF6</color>
+</resources>

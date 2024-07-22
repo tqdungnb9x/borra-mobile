@@ -1,0 +1,3 @@
+class FRCConstant {
+  FRCConstant._();
+}

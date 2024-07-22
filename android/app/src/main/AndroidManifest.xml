@@ -1,0 +1,134 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.firstmecca.hellounsemobile">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+    <queries>
+        <package android:name="com.kakao.talk" />
+    </queries>
+
+    <application
+        android:label="보라"
+        android:name="${applicationName}"
+        android:icon="@mipmap/launcher_icon">
+        <!-- Setting for Kakao Login Custom URI Scheme -->
+        <activity 
+            android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
+            android:exported="true">
+            <intent-filter android:label="flutter_web_auth">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Setting for "kakao${YOUR_NATIVE_APP_KEY}://oauth" type app execution scheme -->
+                <!-- Kakao Login Redirect URI -->
+                <data android:scheme="kakaoe590f461438b4547038b9c245d8bcca5" android:host="oauth"/>
+            
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7363064153809627~2095108002"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <!-- Specifies an Android theme to apply to this Activity as soon as
+                 the Android process has started. This theme is visible to the user
+                 while the Flutter UI initializes. After that, this theme continues
+                 to determine the Window background behind the Flutter UI. -->
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme"
+              />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="go.borra.today"/>
+                <data android:scheme="https" android:host="go.borra.today"/>
+                <data android:scheme="http" android:host="app.borra.today"/>
+                <data android:scheme="https" android:host="app.borra.today"/>
+                <data android:scheme="intent" />
+                <data android:scheme="kakaoplus" />
+                <!-- <data android:host="kakaolink"
+                android:scheme="kakaoe590f461438b4547038b9c245d8bcca5" /> -->
+                <data android:host="kakaolink"
+                android:scheme="kakaoe590f461438b4547038b9c245d8bcca5" />
+                
+            <!-- Kakao Story -->
+            <data android:host="kakaostory"
+                android:scheme="kakaoe590f461438b4547038b9c245d8bcca5" />
+                            <!-- <intent-filter android:autoVerify="true"> -->
+                <!-- <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="go.borra.today" android:scheme="http"/>
+                <data android:host="go.borra.today" android:scheme="https"/> -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="es.antonborri.home_widget.action.LAUNCH" />
+            </intent-filter>
+
+            
+
+        </activity>
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="high_importance_channel"/>
+       <receiver android:name=".SmallWidgetProvider"
+           android:exported="true">
+           <intent-filter>
+               <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+           </intent-filter>
+           <meta-data android:name="android.appwidget.provider"
+               android:resource="@xml/widget_provider" />
+       </receiver>
+
+       <receiver android:name=".LargeWidgetProvider"
+           android:exported="true">
+           <intent-filter>
+               <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+           </intent-filter>
+           <meta-data android:name="android.appwidget.provider"
+               android:resource="@xml/widget_provider_1" />
+       </receiver>
+
+       <!-- Used for Background Work -->
+       <receiver android:name="es.antonborri.home_widget.HomeWidgetBackgroundReceiver"
+           android:exported="true">
+           <intent-filter>
+               <action android:name="es.antonborri.home_widget.action.BACKGROUND" />
+           </intent-filter>
+       </receiver>
+       <service android:name="es.antonborri.home_widget.HomeWidgetBackgroundService"
+           android:permission="android.permission.BIND_JOB_SERVICE"
+           android:exported="true"/>
+    </application>
+</manifest>

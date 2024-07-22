@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/iv_list_tile_native_ad_icon_radius"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_list_tile_native_ad_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/square_background"
+                    tools:background="#EDEDED" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginStart="20dp"
+                android:layout_toRightOf="@id/iv_list_tile_native_ad_icon_radius"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_list_tile_native_ad_headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:ellipsize="end"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textSize="15sp"
+                    tools:text="Headline" />
+
+                <TextView
+                    android:id="@+id/tv_list_tile_native_ad_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="#828282"
+                    android:textSize="13sp"
+                    tools:text="body" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/iv_list_tile_native_ad_icon"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/like_icon"
+                        android:layout_width="12sp"
+                        android:layout_height="12sp"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription=""
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_like" />
+
+                    <TextView
+                        android:id="@+id/like_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:ellipsize="end"
+                        android:textColor="#FE032F"
+                        android:textSize="12sp"
+                        tools:text="923" />
+
+                    <TextView
+                        android:id="@+id/divider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="6dp"
+                        android:ellipsize="end"
+                        android:text="|"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/view_icon"
+                        android:layout_width="12sp"
+                        android:layout_height="12sp"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription=""
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_view" />
+
+                    <TextView
+                        android:id="@+id/view_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:ellipsize="end"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        tools:text="18,579" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/coin_icon"
+                        android:layout_width="16sp"
+                        android:layout_height="16sp"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription=""
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_coin" />
+
+                    <TextView
+                        android:id="@+id/coin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:text="  0"
+                        android:textColor="#FFFBB701"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left"></LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_list_tile_native_ad_attribution_small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#F19938"
+                        android:text="Ad"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</com.google.android.gms.ads.nativead.NativeAdView>
